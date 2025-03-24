@@ -218,5 +218,32 @@
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
 
+<!-- chatbot Inclusion -->
+    <script>
+        window.ChatWidgetConfig = {
+            webhook: {
+                url: 'https://nubedian.app.n8n.cloud/webhook/32c9973e-f6db-4e77-b8af-b27e7b1ff0f1/chat',
+                route: 'general'
+            },
+            branding: {
+                logo: 'https://www.google.com/url?sa=i&url=https%3A%2F%2Fde.linkedin.com%2Fcompany%2Fnubedian-gmbh&psig=AOvVaw3rCgt3akfhuLX9vQ7ks4Fg&ust=1742894635683000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCNi64eGyoowDFQAAAAAdAAAAABAE',
+		name: 'Nubedian GmbH', // Your company name
+                welcomeText: 'Hallo!', //Welcome message
+                responseTimeText: 'We typically respond right away' //Response time message
+            },
+            style: {
+                primaryColor: '#854fff', //Primary color
+                secondaryColor: '#6b3fd4', //Secondary color
+                position: 'right', //Position of the widget (left or right)
+                backgroundColor: '#ffffff', //Background color of the chat widget
+                fontColor: '#333333' //Text color for messages and interface
+            }
+        };
+    </script>
+    <script src="https://cdn.jsdelivr.net/gh/WayneSimpson/n8n-chatbot-template@ba944c3/chat-widget.js"></script>
+    <!-- Widget Script -->
+    
+		
+		
 	</body>
 </html>
